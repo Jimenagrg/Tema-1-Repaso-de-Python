@@ -6,8 +6,11 @@ def formatear_cadena(cadena_corrupta):
             cadena_limpia += c
     print(cadena_limpia)
 
-mensaje= "odnuMaloH!**"
-formatear_cadena(mensaje)
+if __name__ == "__main__":
+    mensaje = "odnuMaloH!**"
+    formatear_cadena(mensaje)
+
+
 
 
 
